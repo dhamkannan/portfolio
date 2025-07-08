@@ -1,0 +1,20 @@
+{
+  "name": "Portfolio",
+  "description": "Platform Engineer Portfolio",
+  "version": "1.0.0",
+  "build": {
+    "output": "dist",
+    "publicPath": "/portfolio/"
+  },
+  "routes": [
+    {
+      "path": "/",
+      "page": "Portfolio"
+    }
+  ],
+  "meta": {
+    "title": "Platform Engineer Portfolio",
+    "description": "Dynamic platform engineer and team leader portfolio showcasing infrastructure expertise",
+    "keywords": "platform engineering, infrastructure, DevOps, cloud architecture, automation"
+  }
+}
