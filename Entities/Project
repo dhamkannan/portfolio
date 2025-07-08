@@ -1,0 +1,56 @@
+{
+  "name": "Project",
+  "type": "object",
+  "properties": {
+    "title": {
+      "type": "string",
+      "description": "Project title"
+    },
+    "company": {
+      "type": "string",
+      "description": "Company name"
+    },
+    "description": {
+      "type": "string",
+      "description": "Project description"
+    },
+    "technologies": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "Technologies used"
+    },
+    "impact": {
+      "type": "string",
+      "description": "Business impact achieved"
+    },
+    "category": {
+      "type": "string",
+      "enum": [
+        "AI Automation",
+        "Platform Modernization",
+        "Security & Compliance",
+        "Cost Optimization",
+        "Data Platform"
+      ],
+      "description": "Project category"
+    },
+    "year": {
+      "type": "string",
+      "description": "Project year"
+    },
+    "featured": {
+      "type": "boolean",
+      "description": "Is this a featured project"
+    }
+  },
+  "required": [
+    "title",
+    "company",
+    "description",
+    "technologies",
+    "impact",
+    "category"
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "name": "Skill",
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string",
+      "description": "Skill name"
+    },
+    "category": {
+      "type": "string",
+      "enum": [
+        "AI & Development",
+        "Cloud Platforms",
+        "DevOps & Infrastructure",
+        "Security & Compliance",
+        "Data & Analytics"
+      ],
+      "description": "Skill category"
+    },
+    "proficiency": {
+      "type": "number",
+      "minimum": 1,
+      "maximum": 10,
+      "description": "Proficiency level (1-10)"
+    },
+    "icon": {
+      "type": "string",
+      "description": "Icon identifier"
+    }
+  },
+  "required": [
+    "name",
+    "category",
+    "proficiency"
+  ]
+}
