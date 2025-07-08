@@ -22,7 +22,7 @@ export default function Portfolio() {
       <footer className="bg-slate-900 text-white py-8 border-t border-slate-800">
         <div className="max-w-6xl mx-auto px-6 text-center">
           <p className="text-slate-400">
-            © 2024 Platform Engineer Portfolio. Crafted with precision and passion.
+            © 2025 Dhamodharakannan Vellaichamy Portfolio.
           </p>
         </div>
       </footer>
