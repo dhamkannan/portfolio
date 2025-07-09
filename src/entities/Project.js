@@ -56,7 +56,7 @@ export class Project {
         impact: "Automated project management workflow from meetings to code",
         category: "AI Automation",
         year: "2024",
-        featured: false
+        featured: true
       },
       {
         id: 6,
@@ -67,7 +67,7 @@ export class Project {
         impact: "10x faster releases, zero configuration errors",
         category: "DevOps",
         year: "2022",
-        featured: false
+        featured: true
       },
       {
         id: 7,
@@ -78,7 +78,7 @@ export class Project {
         impact: "Accelerated team velocity through standardization",
         category: "Platform Engineering",
         year: "2022",
-        featured: false
+        featured: true
       },
       {
         id: 8,
@@ -89,7 +89,7 @@ export class Project {
         impact: "Enterprise-scale secure data platform deployment",
         category: "Data Platform",
         year: "2021",
-        featured: false
+        featured: true
       },
       {
         id: 9,
@@ -100,7 +100,7 @@ export class Project {
         impact: "High-availability NoSQL platform with enhanced security",
         category: "Data Platform",
         year: "2020",
-        featured: false
+        featured: true
       },
       {
         id: 10,
